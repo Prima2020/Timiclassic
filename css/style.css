@@ -88,7 +88,7 @@
     transform: scale(1.1);
 }
 #offer {
-    background: url(img/pexels-alena-darmel-9040544.jpg) center/cover no-repeat;
+    background: url(../img/ttimi/pexels-tembela-bohle-1884584.jpg) center/cover no-repeat;
 }
 #offer .row {
     min-height: 60vh;
@@ -102,11 +102,10 @@
 }
 .offer-content .btn {
     border: transparent !important;
-    background-color: #fff !important;
 }
 .offer-content .btn:hover {
-    color: #fff !important;
-    background-color: goldenrod !important;
+    color: #000 !important;
+    background-color: red !important;
 }
 
 #newsletter p {
