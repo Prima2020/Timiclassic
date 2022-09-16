@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@300&family=Mochiy+Pop+One&family=Poppins:wght@100;300;500&display=swap');
+
+.navbar {
+    font-family: 'Poppins', sans-serif;
+    box-shadow: 0 3px 9px 3px rgba(0, 0, 0, 0.1);
+}
+.navbar-icon .bi{ 
+    font-size: 20px;
+    font-weight: bolder;
+}
+.navbar-brand span {
+    letter-spacing: 2px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: goldenrod;
+}
+.nav-link:hover {
+    color: bisque !important;
+}
+
+.btn:not(.nav-btns button){
+    color: wheat;
+    padding: 10px 25px;
+    border: 3px solid #000;
+    background-color: #000;
+}
+.btn:not(.nav-btns button):hover {
+    background-color: goldenrod;
+    color: #fff;
+    border: none;
+}
+#header {
+    background: url(../img/ttimi/D6E45BDE-6D0E-495B-85FE-48612A959586.JPG) center/cover no-repeat;
+}
+.carousel-inner h1{
+    font-size: 60px;
+    font-family: 'Poppins', sans-serif;
+}
+.yoy img {
+    border-radius: 10px;
+}
+
+/* collection*/
+.title h2::before{
+    position: absolute;
+    content: "";
+    width: 4px;
+    height: 50px;
+    background-color: goldenrod;
+    left: -20px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.active-filter-btn {
+    background-color: goldenrod !important;
+    color: #fff !important;
+    border-color: goldenrod !important;
+}
+.filter-button-group .btn{
+    color: wheat !important;
+}
+.filter-button-group .btn:hover {
+    color: #fff !important;
+}
+.me {
+    border: 1px solid rgb(85, 85, 85);
+}
+.me:hover {
+    border: none;
+}
+.collection-img span {
+    top: 10px;
+    right: 10px;
+    width: 46px;
+    height: 46px;
+    border-radius: 50%;
+}
+.special-img span {
+    top: 5px;
+    right: 5px;
+}
+.special-list span {
+    padding: 8px 20px !important;
+}
+.special-img img {
+    transition: all 0.3s ease;
+}
+.special-img:hover img{
+    transform: scale(1.1);
+}
+#offer {
+    background: url(.//css/pexels-alena-darmel-9040544.jpg) center/cover no-repeat;
+}
+#offer .row {
+    min-height: 60vh;
+}
+.offer-content span{
+    font-size: 28px;
+}
+.offer-content h2 {
+    font-size: 60px;
+    font-family: var(--lg- font);
+}
+.offer-content .btn {
+    border: transparent !important;
+    background-color: #fff !important;
+}
+.offer-content .btn:hover {
+    color: #fff !important;
+    background-color: goldenrod !important;
+}
+
+#newsletter p {
+    max-width: 600px;
+}
+#newsletter .input-group {
+    max-width: 500px;
+}
+#newsletter .btn{
+    background-color: bisque;
+    border: none;
+    color: #fff;
+}
+#newsletter .btn:hover{
+    background-color: goldenrod;
+    color: #fff;
+}
+@media(min-width: 992px){
+    .nav-link{
+        border-bottom: none;
+    }
+}
