@@ -88,7 +88,7 @@
     transform: scale(1.1);
 }
 #offer {
-    background: url(.//css/pexels-alena-darmel-9040544.jpg) center/cover no-repeat;
+    background: url(img/pexels-alena-darmel-9040544.jpg) center/cover no-repeat;
 }
 #offer .row {
     min-height: 60vh;
