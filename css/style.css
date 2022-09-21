@@ -35,7 +35,7 @@
     font-size: 60px;
     font-family: 'Poppins', sans-serif;
 }
-.yoy img {
+.yill img {
     border-radius: 10px;
 }
 
@@ -123,6 +123,7 @@
     background-color: goldenrod;
     color: #fff;
 }
+
 @media(min-width: 992px){
     .nav-link{
         border-bottom: none;
